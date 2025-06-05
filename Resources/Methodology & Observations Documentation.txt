@@ -25,13 +25,3 @@ Observations
 4. Optimum Segmentation: 0 kids, income >= R$60000; n=411, 1=134, 0=277, %=32.6
 5. Removing Married & Together from marital status improves metrics: %=47.27, n=165, 1=78, 0=87
 6. Analyses do not establish confidence intervals meaning real metric value will be inaccurate
-
-Data Story for Presentation:
-1. Hook: low %, increase conversions by segmentation.
-2. Intro: 1st analytics portfolio project.
-3. Company background, marketing campaign context to introduce problem definition & analysis outcomes.
-4. Walkthrough of current situation: low % of C1-5, higher of C6, but still in loss.
-5. 3 key insights to improve this situation: children at home, income, marital status.
-6. Created super pivot sheet to allow interaction with key metric. Discuss key metric in exploratory context.
-7. Discuss limitations - lack of CI, use of basic tools.
-8. Conclude - next one to use more advanced statistical methods.
