@@ -14,21 +14,23 @@ This research question provides 2 analysis goals: reduce target population size,
 
 **Tools Used & Methodology:** This project was entirely completed in Microsoft Excel using functions (COUNTIFS, SUMIFS, etc.), charts, and pivot tables + slicers. For a relatively and clean small dataset, advanced scraping or querying was not required. Moreover, the project scope involved identifying trends rather than hypothesis testing. Therefore, descriptive statistics and data visualisation using Excel were deemed sufficient to answer this business question. A step-by-step breakdown of methodology is available in the project folder.
 
-**Key Insights & Business Recommendations:** Analysis found 3 key insights summarised by graphs below -
-1. Number of children at home - Customers with no children in their household accounted for over half of campaign accpetants while only making up a quarter of the sample size.
-2. Income - Customers earning more than R$60,000 per year made up a greater share of campaign acceptants.
-3. Marital status - Customers who were reportedly together or married showed poorer acceptance rates than those who were single, divorced, or widowed.
+## Key Insights & Business Recommendations
+Analysis found 3 key insights summarised by graphs below -
+1. Number of children at home - Customers with no children in their household accounted for over half of campaign accpetants while only making up a quarter of the sample size.![Image 1](https://github.com/Shree-Analyst/Data-Portfolio-Business/blob/61068dd23caa0fb84b18f6d5c9e339e48ba57374/Marketing%20Analytics/Resources/Charts/Insight%201%20-%20Children%20at%20home.png)
+2. Income - Customers earning more than R$60,000 per year made up a greater share of campaign acceptants. ![Image 2](https://github.com/Shree-Analyst/Data-Portfolio-Business/blob/main/Marketing%20Analytics/Resources/Charts/Insight%202%20-%20Income%20Brackets.png)
+3. Marital status - Customers who were reportedly together or married showed poorer acceptance rates than those who were single, divorced, or widowed. ![Image 3](https://github.com/Shree-Analyst/Data-Portfolio-Business/blob/main/Marketing%20Analytics/Resources/Charts/Insight%203%20-%20Marital%20Status.png)
 
 The key business recommendation to be followed is therefore:
-**For the Gadget Campaign, iFood should target customers who earn R$60k and above, with no children in their household.** This increases the campaign's conversion rate to 32.6% while leaving a sample size large enough (411) for the metric to be close to the actual value. This recommendation was presented in an interactive Pivot table as shown below.
+**For the Gadget Campaign, iFood should target customers who earn R$60k and above, with no children in their household.** This increases the campaign's conversion rate to 32.6% while leaving a sample size large enough (411) for the metric to be close to the actual value. This recommendation was presented in an interactive Pivot table as shown below. ![Image 4](https://github.com/Shree-Analyst/Data-Portfolio-Business/blob/main/Marketing%20Analytics/Resources/Charts/Super%20Pivot.png)
 
 Following this recommendation will enable iFood to run a profitable marketing campaign by requiring fewer resources and generating more conversions.
 
-Further eliminating customers who are married & together improves the conversion rate to 47.27%, but drastically reduces the sample size to 165. To keep the real value of the conversion rate as close to the sampled metric as possible, a larger sample size is desirable. Therefore, a conversion rate of 32.6% with a sample size of 411 is deemed optimum for this project.
+Other changes like segmenting via age brackets or eliminating customers who are married & together improves the conversion rate to 47.27%, but drastically reduces the sample size to 165. To keep the real value of the conversion rate as close to the sampled metric as possible, a larger sample size is desirable. Therefore, a conversion rate of 32.6% with a sample size of 411 is deemed optimum for this project.
 
-**Limitations and Next Steps:** Importantly, this analysis does not establish confidence intervals. The real metric value, therefore, will be different from the 32.6%. Therefore, it is imperative to enlarge the sample size as much as possible while segmenting customers.
+## Limitations and Next Steps
+Importantly, this analysis does not establish confidence intervals. The real metric value, therefore, will be different from the 32.6%. Therefore, it is imperative to enlarge the sample size as much as possible while segmenting customers.
 
-Next steps can include -
+**Next steps** can include -
 1. Establishing confidence intervals for conversion rate using various customer segments.
 2. Investigating how various conversion rates affect campaign's profitability.
 3. Creating simpler, more accessible dashboards to summarise the business's current picture and future recommendations using visualisation tools like Tableau, Looker, or PowerBI.
