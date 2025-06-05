@@ -23,7 +23,10 @@ Analysis found 3 key insights summarised by graphs below -
 The key business recommendation to be followed is therefore:
 **For the Gadget Campaign, iFood should target customers who earn R$60k and above, with no children in their household.** This increases the campaign's conversion rate to 32.6% while leaving a sample size large enough (411) for the metric to be close to the actual value. This recommendation was presented in an interactive Pivot table as shown below. ![Image 4](https://github.com/Shree-Analyst/Data-Portfolio-Business/blob/main/Marketing%20Analytics/Resources/Charts/Super%20Pivot.png)
 
-Following this recommendation will enable iFood to run a profitable marketing campaign by requiring fewer resources and generating more conversions.
+This has 2 consequences for iFood:
+1. Significant cost savings by targeting a smaller subset of its customers.
+2. More than double the conversion rate of the pilot campaign.
+In combination, these help the business effectively allocate its resources and increase profitability from its Gadget Campaign.
 
 Other changes like segmenting via age brackets or eliminating customers who are married & together improves the conversion rate to 47.27%, but drastically reduces the sample size to 165. To keep the real value of the conversion rate as close to the sampled metric as possible, a larger sample size is desirable. Therefore, a conversion rate of 32.6% with a sample size of 411 is deemed optimum for this project.
 
