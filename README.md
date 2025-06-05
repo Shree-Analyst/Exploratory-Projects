@@ -14,7 +14,7 @@ Insights and recommendations are provided on the following key areas:
 
 The Excel analysis files used to inspect and clean the data for this analysis can be found [here](https://github.com/Shree-Analyst/Marketing-Analytics-Project/tree/main/Resources).
 
-Targeted analysis regarding customer segmentation and conversion optimization can be found in the methodology documentation [here]()
+Targeted analysis regarding customer segmentation and conversion optimization can be found in the methodology documentation [here](https://github.com/Shree-Analyst/Marketing-Analytics-Project/blob/main/Resources/Methodology%20%26%20Observations%20Documentation.txt)
 
 An interactive Excel dashboard with pivot tables and slicers used to explore customer segments can be found [here](https://github.com/Shree-Analyst/Marketing-Analytics-Project/blob/main/Resources/Charts/Super%20Pivot.png).
 
