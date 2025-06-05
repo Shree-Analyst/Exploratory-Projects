@@ -1,4 +1,4 @@
-# iFood Marketing Campaign Analysis: Improve Campaign Conversion Rate by data-driven Customer Segmentation
+# iFood Marketing Campaign Analysis: Improve Campaign Conversion Rate by Customer Segmentation
 
 # Project Background
 iFood is Brazil's leading food ordering and delivery platform, holding over 80% market share as of 2021. Operating in the competitive food-tech industry, iFood has expanded beyond traditional food delivery to include non-comestible products such as gold and gadgets in their portfolio. The company generates revenue through commission fees, delivery charges, and advertising revenue from restaurant partners, with customer acquisition and retention being critical business metrics.
