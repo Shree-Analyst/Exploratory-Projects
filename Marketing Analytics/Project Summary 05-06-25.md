@@ -6,7 +6,7 @@
 2. For a simpler, concise walkthrough, consult the video version of this case by following this link.
 
 ## Project Overview
-**Business Problem:** iFood has a few non-comestible products in their portfolio, such as gold and gadgets. The company would like to launch a marketing campaign for a gadget. This is termed as "Gadget Campaign". The conversion rates of iFood's past 5 marketing campaigns have been around 7-8% with one campaign generating rates as low as 2%. To test out the gadget campaign, the company selected a random sample from their campaign database for a pilot campaign which generated a conversion rate of 15.39%. It would like to understand how to further optimise campaign results & generate value for the company.
+**Business Problem:** iFood has a few non-comestible products in their portfolio, such as gold and gadgets. The company would like to launch a marketing campaign for a gadget. This is termed as "Gadget Campaign". The conversion rates of iFood's past 5 marketing campaigns have been around 7-8% with one campaign generating rates as low as 1%. To test out the gadget campaign, the company selected a random sample from their campaign database for a pilot campaign which generated a conversion rate of 15.39%. It would like to understand how to further optimise campaign results & generate value for the company.
 Keeping the outcome of "increase conversion rate for Gadget Campaign" in mind, the following business reseach question was selected: **How can iFood effectively segment its customers to increase the conversion rate of the Gadget Campaign?**
 This research question provides 2 analysis goals: reduce target population size, increase acceptance rates.
 
