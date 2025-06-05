@@ -1,0 +1,37 @@
+Context about the dataset is available here: https://github.com/nailson/ifood-data-business-analyst-test/tree/master
+
+Selected Research Question: How can the company effectively segment its customers to increase the success rate of its next marketing campaign?
+
+Documentation:
+1. CSV file was converted to XLSX.
+2. Checked for invalid data using data validation circles. Did not find any data validation mistakes for numerical features. Removed validation.
+3. Loaded data to a different sheet to preserve original raw data copy-paste. CLEAN & TRIM were not necessary since there were no categorical features. Adjusted currency formatting & column headers.
+4. Checked for duplicate values by highlighting the income column using conditional formatting. This is an effective way to scan for duplicates in a small dataset. Eye test revealed presence of duplicate entries. Removed 184 entries using remove duplicates giving n=2021.
+5. Defined named ranges and tabulated the data.
+6. Started EDA on a new sheet: categorised features into numerical (continuous/discrete) and categorical; calculated central tendencies for each feature.
+7. Recalculated total amount column since the amounts spent on individual products did not add up to total amount. This allowed for higher accuracy in analysis.
+8. Used a problem-outcome-data method to determine a research question relevant to business context. Selected relevant data and outlined exploratory analyses to run.
+9. Conducted descriptive univariate, bi-variate, and multi-variate analyses using basic spreadsheet functions such as COUNTIFS & SUMIFS. These analyses provided insights into spending and income correlations, campaign acceptance across marital status & children at home for all marketing campaigns, campaign acceptance across age group, income segment, etc. Other segmentation variables such as channel of purchase or customer recency were not included since event-specific data is not available (i.e., "how much did the customer spend after accepting campaign x?", "which channel did the customer use to make a purchase after accepting campaign y?").
+10. Used Pivot Table and slicers to segment customers according to various factors since these tools allow quick, dynamic filtering and are easy to use.
+11. Created summary sheets to show the current business picture and ways to improve metric.
+12. Documented ways to use dynamic pivot table to study factors affecting conversion rate.
+13. Added buttons on "Current Picture" summary sheet for easy navigation.
+14. Adjusted formatting for the entire sheet.
+
+Observations
+1. The conversion rates of marketing campaigns can be assessed using their means. Campaign 2 has a rate of 1%, the most recent campaign has 15%, while the others (1, 3-5) have 7-8%. This can potentially be improved by segmentation.
+2. (Key) all marketing campaigns except 3&4 are significantly more likely to be accepted by customers without children at home despite most customers having at least 1 child at home. Eg., half of the people who accepted the Gadget Campaign did not have any children in their household, a demographic that represents only a quarter of the sample.
+3. (Key) The acceptance rates of the Gadget Campaign for divorced and single people with no children are significantly higher than other categories. Similarly above average response rates for divorced and single customers with 2 children in household
+4. Optimum Segmentation: 0 kids, income >= R$60000; n=411, 1=134, 0=277, %=32.6
+5. Removing Married & Together from marital status improves metrics: %=47.27, n=165, 1=78, 0=87
+6. Analyses do not establish confidence intervals meaning real metric value will be inaccurate
+
+Data Story for Presentation:
+1. Hook: low %, increase conversions by segmentation.
+2. Intro: 1st analytics portfolio project.
+3. Company background, marketing campaign context to introduce problem definition & analysis outcomes.
+4. Walkthrough of current situation: low % of C1-5, higher of C6, but still in loss.
+5. 3 key insights to improve this situation: children at home, income, marital status.
+6. Created super pivot sheet to allow interaction with key metric. Discuss key metric in exploratory context.
+7. Discuss limitations - lack of CI, use of basic tools.
+8. Conclude - next one to use more advanced statistical methods.
